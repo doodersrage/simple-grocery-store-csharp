@@ -314,7 +314,7 @@ namespace GroceryStore
                     // add file line
                     prodData = Products.getProduct(cart[i].id);
                     prodPrice = (double)prodData.price * cart[i].qty;
-                    newLine = string.Format("{0}. {1}\t{2}\t{3}\t{4}", i, prodData.name, prodData.price.ToString("C"), cart[i].qty, prodPrice.ToString("C"));
+                    newLine = string.Format("{0}. {1}\t{2}\t{3}\t{4}", i + 1, prodData.name, prodData.price.ToString("C"), cart[i].qty, prodPrice.ToString("C"));
                     file.WriteLine(newLine);
 
                     // update products quantity
