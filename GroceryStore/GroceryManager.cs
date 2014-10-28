@@ -64,7 +64,7 @@ namespace GroceryStore
         }
         
         // new product
-        public void newProduct()
+        private void newProduct()
         {
             string name, qtyStr, priceStr;
             int qty = 0;
@@ -109,7 +109,7 @@ namespace GroceryStore
         }
 
         // update product
-        public void updateProduct()
+        private void updateProduct()
         {
             // set vars
             string inpVal;
@@ -143,7 +143,7 @@ namespace GroceryStore
         }
 
         // remove product
-        public void removeProduct()
+        private void removeProduct()
         {
             // set vars
             string inpVal;
