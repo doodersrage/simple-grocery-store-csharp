@@ -12,11 +12,6 @@ namespace GroceryStore
 {
     class Products
     {
-        // products constructor
-        public Products()
-        {
-
-        }
 
         // product structure
         public struct Product
