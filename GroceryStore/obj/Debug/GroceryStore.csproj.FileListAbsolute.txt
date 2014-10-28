@@ -1,0 +1,6 @@
+\\vmware-host\Shared Folders\Desktop\GroceryStore\GroceryStore\bin\Debug\GroceryStore.exe.config
+\\vmware-host\Shared Folders\Desktop\GroceryStore\GroceryStore\obj\Debug\GroceryStore.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\GroceryStore\GroceryStore\bin\Debug\GroceryStore.exe
+\\vmware-host\Shared Folders\Desktop\GroceryStore\GroceryStore\bin\Debug\GroceryStore.pdb
+\\vmware-host\Shared Folders\Desktop\GroceryStore\GroceryStore\obj\Debug\GroceryStore.exe
+\\vmware-host\Shared Folders\Desktop\GroceryStore\GroceryStore\obj\Debug\GroceryStore.pdb

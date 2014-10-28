@@ -1,0 +1,5 @@
+ID  	Name	Price	Qty	Total
+0. carrots	$1.00	29	$29.00
+Sub-Total: $29.00
+Tax:     $0.06
+Total:  $30.74

@@ -1,0 +1,7 @@
+ID  	Name	Price	Qty	Total
+0. carrots	$1.00	40	$40.00
+1. potatoes	$1.50	30	$45.00
+2. apples	$0.35	30	$10.50
+Sub-Total: $95.50
+Tax:  $0.06
+Total: $101.23
