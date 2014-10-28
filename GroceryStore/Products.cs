@@ -184,10 +184,10 @@ namespace GroceryStore
         {
             if (productList.Count > 0)
             {
-                Console.WriteLine("ID  \tName\tQty\tPrice");
+                Console.WriteLine("ID  \tName\t\tQty\tPrice");
                 for (int i = 0; i < productList.Count; ++i)
                 {
-                    Console.WriteLine("{0}. {1}\t{2}\t{3}", i + 1, productList[i].name, productList[i].qty, productList[i].price.ToString("C"));
+                    Console.WriteLine("{0}. \t{1,10}\t{2}\t{3}", i + 1, productList[i].name, productList[i].qty, productList[i].price.ToString("C"));
                 }
                 Console.WriteLine("");
             }
@@ -206,26 +206,30 @@ namespace GroceryStore
             
             // load saved csv
             string path = Path.GetDirectoryName(Application.ExecutablePath);
-            using (TextFieldParser parser = new TextFieldParser(Path.Combine(path, groceriesList)))
+            // open file if exists
+            if (File.Exists(Path.Combine(path, groceriesList)))
             {
-                parser.TextFieldType = FieldType.Delimited;
-                parser.SetDelimiters(",");
-                while (!parser.EndOfData) 
+                using (TextFieldParser parser = new TextFieldParser(Path.Combine(path, groceriesList)))
                 {
-                    //Processing row
-                    string[] fields = parser.ReadFields();
+                    parser.TextFieldType = FieldType.Delimited;
+                    parser.SetDelimiters(",");
+                    while (!parser.EndOfData)
+                    {
+                        //Processing row
+                        string[] fields = parser.ReadFields();
 
-                    // add product to struct
-                    Product newProduct = new Product();
+                        // add product to struct
+                        Product newProduct = new Product();
 
-                    // set product values
-                    newProduct.name = fields[0];
-                    newProduct.qty = Convert.ToInt32(fields[1]);
-                    newProduct.price = Convert.ToDouble(fields[2]);
+                        // set product values
+                        newProduct.name = fields[0];
+                        newProduct.qty = Convert.ToInt32(fields[1]);
+                        newProduct.price = Convert.ToDouble(fields[2]);
 
-                    // store in class property list
-                    productList.Add(newProduct);
+                        // store in class property list
+                        productList.Add(newProduct);
 
+                    }
                 }
             }
         }
@@ -248,6 +252,7 @@ namespace GroceryStore
                 }
 
             }
+
         }
     }
 }

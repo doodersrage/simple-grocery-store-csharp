@@ -1,0 +1,5 @@
+\\vmware-host\Shared Folders\Desktop\simple-grocery-store-csharp\GroceryStore\bin\Release\GroceryStore.exe.config
+\\vmware-host\Shared Folders\Desktop\simple-grocery-store-csharp\GroceryStore\bin\Release\GroceryStore.exe
+\\vmware-host\Shared Folders\Desktop\simple-grocery-store-csharp\GroceryStore\bin\Release\GroceryStore.pdb
+\\vmware-host\Shared Folders\Desktop\simple-grocery-store-csharp\GroceryStore\obj\Release\GroceryStore.exe
+\\vmware-host\Shared Folders\Desktop\simple-grocery-store-csharp\GroceryStore\obj\Release\GroceryStore.pdb

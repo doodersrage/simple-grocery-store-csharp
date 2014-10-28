@@ -43,7 +43,7 @@ namespace GroceryStore
                 Console.Clear();
                 listItems();
                 Console.WriteLine("");
-                Console.WriteLine("Select an inventory management option:");
+                Console.WriteLine("Select an shopping cart option:");
                 Console.WriteLine("1. Add product to cart");
                 Console.WriteLine("2. Update existing product quantity");
                 Console.WriteLine("3. Remove existing product from cart");
@@ -339,6 +339,9 @@ namespace GroceryStore
 
             // open newly generated file
             System.Diagnostics.Process.Start(Path.Combine(path, invoicePath));
+
+            Console.WriteLine("");
+            Console.WriteLine("Hit enter to continue!");
 
             // pause
             Console.ReadLine();
