@@ -79,7 +79,7 @@ namespace GroceryStore
 
             Console.Clear();
             // promp user to select input
-            Console.WriteLine("Which product would you like to update?");
+            Console.WriteLine("Product update:");
             Console.WriteLine("Name\tQty\tPrice");
             Console.WriteLine("{0}\t{1}\t{2}", productList[id].name, productList[id].qty, productList[id].price.ToString("C"));
             Console.WriteLine("");

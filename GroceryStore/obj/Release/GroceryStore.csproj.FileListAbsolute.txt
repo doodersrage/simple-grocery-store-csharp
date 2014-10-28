@@ -8,3 +8,4 @@
 \\vmware-host\Shared Folders\Desktop\robmcd7485_solution_GroceryStore\GroceryStore\obj\Release\GroceryStore.pdb
 \\vmware-host\Shared Folders\Desktop\robmcd7485_solution_GroceryStore\GroceryStore\bin\Release\GroceryStore.exe
 \\vmware-host\Shared Folders\Desktop\robmcd7485_solution_GroceryStore\GroceryStore\bin\Release\GroceryStore.pdb
+\\vmware-host\Shared Folders\Desktop\robmcd7485_solution_GroceryStore\GroceryStore\obj\Release\GroceryStore.csprojResolveAssemblyReference.cache

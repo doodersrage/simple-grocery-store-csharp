@@ -139,7 +139,7 @@ namespace GroceryStore
 
             // if user selected a valid product update it
             if (inpVal.ToUpper() != "X")
-               newProducts.updateProduct(Convert.ToInt32(inpVal));
+                newProducts.updateProduct(selVal);
         }
 
         // remove product
